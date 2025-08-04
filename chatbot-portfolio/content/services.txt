@@ -1,0 +1,23 @@
+1. Full-stack Web Development:
+I build modern, responsive web applications using HTML, CSS, JavaScript, React (Frontend), and Node.js or FastAPI (Backend). My services include UI/UX design, authentication systems, RESTful APIs, database integration (PostgreSQL, MongoDB), deployment (VPS/Docker), and performance optimization.
+
+2. Full-stack Mobile App Development:
+I develop cross-platform mobile apps using React Native and Flutter, paired with backend services in FastAPI or Firebase. Whether it's an e-commerce app, portfolio app, or utility tool, I ensure fast, scalable, and device-optimized solutions.
+
+3. AI Chatbot Development:
+I design and deploy intelligent chatbots using Gemini Pro, OpenAI GPT models, and Retrieval-Augmented Generation (RAG). These bots can answer FAQs, personalize responses using indexed documents, and integrate easily with websites or mobile apps via REST APIs or iframe.
+
+4. Vision Transformer Model Training:
+I fine-tune Vision Transformer (ViT) models for tasks such as image classification, landmark recognition, and scene understanding. Includes dataset preprocessing (frame extraction, filtering), model training (PyTorch/Transformers), evaluation, and deployment.
+
+5. Data Pipeline & Automation Systems:
+I automate repetitive workflows such as data scraping, preprocessing, and storage using Python, FFmpeg, OpenCV, and pandas. Pipelines are built for scalability and speed—used in building large training datasets or converting media to training-ready formats.
+
+6. API Integration & Backend Systems:
+I specialize in creating and integrating RESTful and GraphQL APIs for web/mobile apps. This includes third-party integrations (payment, email, social login), backend logic (FastAPI/Node.js), data storage, user auth (JWT/OAuth), and role-based access control.
+
+7. Custom RAG Systems for Knowledge Retrieval:
+I build personalized document-based Q&A systems using Sentence Transformers, FAISS, and LangChain. These are ideal for use cases like portfolio bots, smart documentation, and enterprise-level assistants.
+
+8. Cloud Deployment & DevOps:
+I deploy full-stack and AI apps on cloud platforms like Vercel, Render, and Railway. I also configure CI/CD pipelines, Docker containers, and custom domains, ensuring your project is production-ready and live 24/7.

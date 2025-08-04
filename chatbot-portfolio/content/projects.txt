@@ -1,0 +1,19 @@
+1. IntelliVista – A deep learning-based sacred landmark recognition and captioning system designed to identify Maqamat in Makkah such as Maqam-e-Ibrahim, Hajr-e-Aswad, and Safa/Marwah. Utilizes Vision Transformers (ViT), blur detection, perceptual hashing, frame filtering, and LSTM-based caption generation.
+
+2. Portfolio Site – A full-stack portfolio platform built with React, TailwindCSS, FastAPI backend, PostgreSQL, and shadcn/ui. Features a dynamic project showcase, blog integration, and a personalized AI chatbot trained on portfolio data.
+
+3. AI Assistant – A document-aware, RAG-based FastAPI chatbot simulating intelligent conversations using FAISS, SentenceTransformers, and optionally Gemini API. It dynamically retrieves and summarizes portfolio content to respond to user queries.
+
+4. Makkah Dataset Builder – An automated pipeline that scrapes, filters, and preprocesses sacred site videos. Performs frame extraction (1 FPS), blur/duplicate removal, YOLO-based irrelevant frame filtering, and dataset structuring with HDF5 and COCO metadata.
+
+5. DeepVision Tagger – A multi-label classifier built with ResNet-50 trained on Islamic architecture datasets. Detects architectural elements like domes, minarets, inscriptions, and sacred boundaries using real-time webcam input.
+
+6. LingoFlow – A language learning app that uses speech-to-text (Whisper) and OpenAI embeddings to help users learn Arabic vocabulary and phrases with context-based examples and audio pronunciation. Deployed with Docker + Nginx + PostgreSQL.
+
+7. AutoVideoSummarizer – Built with PyTorch and Transformers to summarize long video content (lectures, sermons) into keyframes and short descriptions. Combines CNN feature extraction with a GPT-style caption decoder.
+
+8. SmartDocs Q&A – A scalable enterprise RAG system that indexes legal and technical PDF documents using LangChain, Pinecone, and OpenAI embeddings. Supports conversational queries, citation linking, and memory persistence.
+
+9. ResumeRanker – An AI-powered resume screening tool built with Scikit-learn and XGBoost. Parses resumes using spaCy, ranks them based on JD match, and recommends improvement points. Used in HR automation tools.
+
+10. VisionAlert – A surveillance tool that uses YOLOv8 and DeepSort to detect suspicious activities (e.g., unattended baggage) in crowded places. Includes a dashboard for real-time monitoring and alerts via FastAPI and Socket.IO.

@@ -1,0 +1,55 @@
+# === Dependency Directories ===
+node_modules/
+venv/
+__pycache__/
+*.py[cod]
+
+# === Build Output ===
+dist/
+build/
+.vite/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE/Editor Settings ===
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# === Server-side Assets (adjust if needed) ===
+server/public/
+
+# === Vite Configuration ===
+vite.config.*
+.vite/
+
+# === Logs and Temp Files ===
+*.log
+*.tmp
+*.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Environment Variables ===
+.env
+.env.*
+
+# === Database or App Files ===
+*.sqlite3
+*.db
+*.pid
+
+# === Compressed Files ===
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# === OS Metadata ===
+ehthumbs.db
+Desktop.ini

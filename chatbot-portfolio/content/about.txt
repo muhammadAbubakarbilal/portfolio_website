@@ -1,0 +1,5 @@
+I am a passionate full-stack developer and AI engineer. I work with modern web stacks including React, Node.js, FastAPI, PostgreSQL, and has experience in building AI chatbots, computer vision pipelines, and RAG systems.
+
+I specializes in deep learning, computer vision, and transformer-based models. My recent work includes building an intelligent assistant using a retrieval-augmented chatbot architecture for developer portfolios.
+
+I believes in clean code, performance optimization, and building scalable systems for real-world AI applications.

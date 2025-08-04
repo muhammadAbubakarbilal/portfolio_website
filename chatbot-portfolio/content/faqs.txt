@@ -1,0 +1,202 @@
+## 🧾 PRICING & PAYMENT
+
+Q: What is your pricing model?
+A: I offer both fixed-price and hourly contracts depending on the project scope.
+
+Q: Do you take milestone-based payments?
+A: Yes, I prefer milestone-based payments for larger projects to align with deliverables.
+
+Q: What is your hourly rate?
+A: My hourly rate typically ranges from $25 to $50 depending on project complexity.
+
+Q: Do you offer discounts for long-term projects?
+A: Yes, I offer discounts for long-term or recurring clients.
+
+Q: Do you require upfront payment?
+A: A small upfront deposit is required to confirm project commitment.
+
+Q: What payment methods do you accept?
+A: I accept Payoneer, Wise, and direct bank transfers.
+
+---
+
+## 🌍 AVAILABILITY & WORK STYLE
+
+Q: Do you work with international clients?
+A: Yes, I work with clients globally via remote tools and Zoom meetings.
+
+Q: What time zone do you operate in?
+A: I work in Pakistan Standard Time (GMT+5) but can adjust for overlap with client time zones.
+
+Q: Are you available for meetings?
+A: Yes, I’m available for Zoom/Google Meet calls based on mutual convenience.
+
+Q: What is your typical response time?
+A: I usually respond within a few hours and aim for fast turnaround on project discussions.
+
+---
+
+## 🛠 TECH STACK & EXPERTISE
+
+Q: What frontend technologies do you use?
+A: React.js, TailwindCSS, Next.js, HTML5, CSS3, TypeScript.
+
+Q: What backend technologies do you work with?
+A: FastAPI, Node.js, Express.js, PostgreSQL, MongoDB.
+
+Q: Do you work with mobile apps?
+A: Yes, I build mobile apps using React Native and Flutter.
+
+Q: Do you integrate third-party APIs?
+A: Yes, I integrate services like payment gateways, email, Firebase, and OAuth.
+
+Q: What AI tools do you use?
+A: I work with OpenAI (GPT), Google Gemini, Transformers, and custom Vision Transformers.
+
+Q: Do you have experience with RAG systems?
+A: Yes, I build intelligent Retrieval-Augmented Generation systems with FAISS and Sentence Transformers.
+
+Q: Do you train custom models?
+A: Yes, I fine-tune models for classification, captioning, and landmark recognition.
+
+---
+
+## 📦 PROJECT MANAGEMENT
+
+Q: How do you manage projects?
+A: I use Trello, Notion, and GitHub Projects to manage tasks and timelines.
+
+Q: Do you use Git version control?
+A: Yes, Git is standard for all my code versioning and collaboration.
+
+Q: Do you write documentation?
+A: Absolutely. I deliver clean documentation for APIs, deployment, and usage.
+
+Q: Can you deploy to cloud?
+A: Yes, I deploy to Vercel, Railway, Render, or your custom server using Docker.
+
+Q: Will I own the code?
+A: Yes, 100% ownership of code is transferred upon project completion.
+
+---
+
+## 📈 DELIVERY & TIMELINE
+
+Q: How long does a typical project take?
+A: Depends on scope. Simple projects: 1-2 weeks; complex ones: 3-6 weeks.
+
+Q: Can you work on urgent timelines?
+A: Yes, I accept fast-track projects depending on availability.
+
+Q: Do you support ongoing maintenance?
+A: Yes, I offer post-launch support and monthly maintenance packages.
+
+---
+
+## 💬 COMMUNICATION
+
+Q: How do you communicate during projects?
+A: Via email, WhatsApp, Slack, or Zoom based on client preference.
+
+Q: Can you join client Slack channels?
+A: Yes, I often collaborate inside client workspaces for faster alignment.
+
+Q: Will I get regular updates?
+A: I provide frequent progress updates, demo links, and screen recordings.
+
+---
+
+## 💼 EXPERIENCE & BACKGROUND
+
+Q: How much experience do you have?
+A: I have 3+ years of experience in full-stack development and AI engineering.
+
+Q: Have you worked on client projects before?
+A: Yes, I've worked with agencies, startups, and solo founders across the globe.
+
+Q: Can I see your portfolio?
+A: You can explore my featured work on my portfolio website.
+
+---
+
+## 🧠 AI PROJECTS
+
+Q: Have you built custom AI models?
+A: Yes, including ViT-based classifiers, captioning models, and document bots.
+
+Q: Do you build AI chatbots?
+A: Yes, both static and intelligent bots using Gemini or RAG techniques.
+
+Q: Can I train the bot on my data?
+A: Absolutely. I can fine-tune the bot using your domain-specific documents.
+
+Q: Can your bots handle documents?
+A: Yes, using vector search and retrieval methods, my bots can contextually answer queries.
+
+---
+
+## 🖼 COMPUTER VISION
+
+Q: Do you work with images and videos?
+A: Yes, I build pipelines for frame extraction, filtering, and object detection.
+
+Q: Have you done landmark recognition?
+A: Yes, I built IntelliVista to recognize Makkah’s holy sites from video feeds.
+
+Q: Can you train vision transformers?
+A: Yes, I’ve trained ViTs from scratch for both classification and captioning.
+
+---
+
+## 🧪 TESTING & QUALITY
+
+Q: Do you write tests?
+A: I implement unit tests and integration tests for backend logic when required.
+
+Q: How do you ensure quality?
+A: I follow modular design, testing, code reviews, and use linters like Flake8/ESLint.
+
+---
+
+## 🌐 WEB & PORTFOLIO
+
+Q: Can you build personal websites?
+A: Yes, I build fast-loading React-based portfolio and business sites.
+
+Q: Do you add contact forms and chatbot?
+A: Yes, I integrate forms, chatbots, testimonials, and animations.
+
+Q: Can I update the website later?
+A: Yes, I provide admin panels or markdown-based updates.
+
+---
+
+## 🔐 SECURITY & PRIVACY
+
+Q: Do you handle authentication?
+A: Yes, including email/password, Google OAuth, and JWT-based auth.
+
+Q: Will my data be secure?
+A: I follow secure coding practices and encrypt sensitive data where needed.
+
+Q: Do you sign NDAs?
+A: Yes, I’m open to signing NDAs to protect your project details.
+
+---
+
+## 🔧 CUSTOM & MISCELLANEOUS
+
+Q: Can I customize my chatbot?
+A: Yes, from personality to dataset, UI to behavior — all customizable.
+
+Q: Can I host it on my own domain?
+A: Yes, deployment on custom domains and subdomains is supported.
+
+Q: Can I use this in a mobile app?
+A: Absolutely. The chatbot works via REST API and can be embedded in apps.
+
+Q: Can you clone a website or app?
+A: Yes, if the scope is ethical and approved, I can rebuild or replicate functionality.
+
+Q: Can we scale the bot later?
+A: Yes, the RAG and backend is scalable and modular for future upgrades.
