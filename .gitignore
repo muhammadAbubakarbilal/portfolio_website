@@ -1,55 +1,50 @@
-# === Dependency Directories ===
+# ------------------------
+# 📦 Dependency directories
 node_modules/
 venv/
-__pycache__/
-*.py[cod]
 
-# === Build Output ===
+# 🔨 Build output
 dist/
 build/
-.vite/
 
-# === System Files ===
+# ⚙️ Vite config (ignore all variants)
+vite.config.*
+
+# 🌐 Server-side static assets
+server/public/
+
+# 📁 System and editor files
 .DS_Store
 Thumbs.db
 
-# === IDE/Editor Settings ===
-.vscode/
-.idea/
-*.swp
-*.sublime-workspace
-*.sublime-project
+# 🧪 Test coverage
+coverage/
+*.lcov
 
-# === Server-side Assets (adjust if needed) ===
-server/public/
-
-# === Vite Configuration ===
-vite.config.*
-.vite/
-
-# === Logs and Temp Files ===
-*.log
-*.tmp
-*.bak
+# 📦 Logs and temporary files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+*.log
+*.tmp
+*.swp
 
-# === Environment Variables ===
+# 🔒 Environment variables
 .env
-.env.*
+.env.*  # e.g., .env.local, .env.production
 
-# === Database or App Files ===
-*.sqlite3
-*.db
-*.pid
-
-# === Compressed Files ===
+# 📦 Package archives
+*.tgz
 *.tar.gz
 *.zip
-*.rar
-*.7z
 
-# === OS Metadata ===
-ehthumbs.db
-Desktop.ini
+# 📄 IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 🧹 Netlify / deployment specific
+.netlify/
+netlify.toml.local
