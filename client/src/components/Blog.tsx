@@ -24,7 +24,7 @@ export function Blog() {
     setSelectedPost(null);
   };
 
-  const { data: posts = [], isLoading } = useQuery({
+  const { data: posts = [], isLoading } = useQuery<BlogPost[]>({
     queryKey: ["/api/blog"],
   });
 

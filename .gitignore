@@ -7,8 +7,7 @@ venv/
 dist/
 build/
 
-# ⚙️ Vite config (ignore all variants)
-vite.config.*
+
 
 # 🌐 Server-side static assets
 server/public/

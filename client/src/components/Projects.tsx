@@ -25,7 +25,7 @@ export function Projects() {
     setSelectedProject(null);
   };
 
-  const { data: projects = [], isLoading } = useQuery({
+  const { data: projects = [], isLoading } = useQuery<Project[]>({
     queryKey: ["/api/projects"],
   });
 
@@ -244,22 +244,26 @@ export function Projects() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <motion.a
-                      href={project.githubUrl}
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      className="w-8 h-8 bg-white/90 dark:bg-slate-900/90 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                    >
-                      <Github className="h-4 w-4" />
-                    </motion.a>
-                    <motion.a
-                      href={project.projectUrl}
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                      className="w-8 h-8 bg-white/90 dark:bg-slate-900/90 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                    >
-                      <ExternalLink className="h-4 w-4" />
-                    </motion.a>
+                    {project.githubUrl && (
+                      <motion.a
+                        href={project.githubUrl ?? undefined}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="w-8 h-8 bg-white/90 dark:bg-slate-900/90 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                      >
+                        <Github className="h-4 w-4" />
+                      </motion.a>
+                    )}
+                    {project.projectUrl && (
+                      <motion.a
+                        href={project.projectUrl ?? undefined}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        className="w-8 h-8 bg-white/90 dark:bg-slate-900/90 rounded-full flex items-center justify-center text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                      >
+                        <ExternalLink className="h-4 w-4" />
+                      </motion.a>
+                    )}
                   </div>
                 </div>
                 
@@ -300,7 +304,7 @@ export function Projects() {
                     </motion.button>
                     <div className="flex space-x-2">
                       <motion.a
-                        href={project.githubUrl}
+                        href={project.githubUrl ?? undefined}
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                         className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300 transition-colors"
@@ -308,7 +312,7 @@ export function Projects() {
                         <Github className="h-4 w-4" />
                       </motion.a>
                       <motion.a
-                        href={project.projectUrl}
+                        href={project.projectUrl ?? undefined}
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                         className="text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300 transition-colors"
@@ -413,13 +417,13 @@ export function Projects() {
                   
                   <div className="flex gap-4 pt-4">
                     <Button asChild className="flex-1">
-                      <a href={selectedProject.projectUrl} target="_blank" rel="noopener noreferrer">
+                      <a href={selectedProject.projectUrl ?? undefined} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Live Demo
                       </a>
                     </Button>
                     <Button variant="outline" asChild className="flex-1">
-                      <a href={selectedProject.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <a href={selectedProject.githubUrl ?? undefined} target="_blank" rel="noopener noreferrer">
                         <Github className="w-4 h-4 mr-2" />
                         Source Code
                       </a>
